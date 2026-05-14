@@ -1,12 +1,12 @@
 import React from "react";
 import Navbar from "./components/Navbar";
-import HeroSection from "./components/HeroSection";
+import Slider from "./components/slider";
 
 function App() {
   return (
     <>
       <Navbar />
-      <HeroSection />
+      <Slider />
     </>
   );
 }
