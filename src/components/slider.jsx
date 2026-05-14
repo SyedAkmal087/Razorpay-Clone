@@ -8,7 +8,7 @@ import "swiper/css";
 
 import HeroSection from "./HeroSection";
 
-function slider() {
+function Slider() {
   return (
     <div className="">
       <button className="hero-prev absolute left-12 top-1/2 z-20 flex h-10 w-10 -translate-y-1/2 items-center justify-center rounded-full bg-white shadow-md">
@@ -20,7 +20,6 @@ function slider() {
       </button>
       <Swiper
         modules={[Navigation, Autoplay]}
-        navigation={true}
         loop={true}
         autoplay={{
           delay: 3000,
@@ -50,4 +49,4 @@ function slider() {
   );
 }
 
-export default slider;
+export default Slider;
